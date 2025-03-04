@@ -9,3 +9,63 @@
         font-family: var(--font-display);
     }
 }
+
+.swiper {
+    height: 310px !important;
+}
+
+.swiper-pagination-bullet-active {
+    width: 36px !important;
+    height: 10px !important;
+    border-radius: 6px !important;
+    background: #F53838 !important;
+}
+
+.swiper-pagination {
+    position: absolute !important;
+    bottom: 0px !important;
+    left: -2 !important;
+    transform: translateX(0%) !important;
+    width: auto !important;
+}
+
+.swiper-button-prev {
+    position: absolute !important;
+    bottom: -10px !important
+}
+
+.navigation-buttons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 15px;
+}
+
+.custom-prev,
+.custom-next {
+    background: #fff;
+    border: 2px solid #F53838;
+    color: #F53838;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.custom-next {
+    background: #F53838;
+    color: #fff;
+}
+
+.custom-prev:hover,
+.custom-next:hover {
+    transform: scale(1.1);
+}

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Features() {
     return (
-        <div className='mt-[96px] flex gap-[170px] items-center'>
+        <div className='mt-[96px] flex gap-[170px] pb-[130px] items-center'>
             <div className='w-1/2'>
                 <img src='/features-image.png' />
             </div>
@@ -40,7 +40,6 @@ function Features() {
                     </ul>
                 </div>
             </div>
-
         </div>
     )
 }
