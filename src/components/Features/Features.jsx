@@ -7,7 +7,7 @@ function Features() {
                 <img src='/features-image.png' />
             </div>
             <div className='flex flex-col w-1/2 gap-[20px]'>
-                <h1 className='text-[35px] text-[#0B132A] font-medium leading-[50px]'>We Provide Many <br /> Features You Can Use</h1>
+                <h1 className='text-[35px] text-[#0B132A] font-semibold leading-[50px]'>We Provide Many <br /> Features You Can Use</h1>
                 <h3 className='text-[#4F5665] text-[16px] font-normal leading-[30px]'>
                     You can explore the features that we provide with fun and <br /> have their own functions each feature.
                 </h3>

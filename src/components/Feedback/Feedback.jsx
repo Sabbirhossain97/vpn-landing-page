@@ -9,9 +9,9 @@ import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 function Feedback() {
     return (
-        <div className='pt-[124px] pb-20 bg-[#FAFAFA]'>
+        <div className='pt-[124px] pb-[200px] bg-[#FAFAFA]'>
             <div className='text-center'>
-                <h1 className='text-[35px] text-[#0B132A] font-medium leading-[50px]'>Trusted by Thousands of <br /> Happy Customer</h1>
+                <h1 className='text-[35px] text-[#0B132A] font-semibold leading-[50px]'>Trusted by Thousands of <br /> Happy Customer</h1>
                 <h3 className='mt-[20px] text-[#4F5665] text-[16px] font-normal leading-[30px]'>These are the stories of our customers who have joined us with great <br /> pleasure when using this crazy feature.</h3>
             </div>
             <Swiper
@@ -57,7 +57,7 @@ function Feedback() {
                                 <div className='flex gap-[20px]'>
                                     <img src='avatar-1.png' />
                                     <div className='flex flex-col'>
-                                        <h1 className='text-[#0B132A] text-[18px] font-medium'>Viezh Robert</h1>
+                                        <h1 className='text-[#0B132A] text-[18px] font-semibold'>Viezh Robert</h1>
                                         <h3 className='text-[#4F5665] text-[14px] font-normal'>Warsaw, Poland</h3>
                                     </div>
                                 </div>
@@ -81,7 +81,7 @@ function Feedback() {
                                 <div className='flex gap-[20px]'>
                                     <img src='avatar-2.png' />
                                     <div className='flex flex-col'>
-                                        <h1 className='text-[#0B132A] text-[18px] font-medium'>Yessica Christy</h1>
+                                        <h1 className='text-[#0B132A] text-[18px] font-semibold'>Yessica Christy</h1>
                                         <h3 className='text-[#4F5665] text-[14px] font-normal'>Shanxi, China</h3>
                                     </div>
                                 </div>
@@ -105,7 +105,7 @@ function Feedback() {
                                 <div className='flex gap-[20px]'>
                                     <img src='avatar-3.png' />
                                     <div className='flex flex-col'>
-                                        <h1 className='text-[#0B132A] text-[18px] font-medium'>Kim Young Jou</h1>
+                                        <h1 className='text-[#0B132A] text-[18px] font-semibold'>Kim Young Jou</h1>
                                         <h3 className='text-[#4F5665] text-[14px] font-normal'>Seoul, South Korea</h3>
                                     </div>
                                 </div>
@@ -129,7 +129,7 @@ function Feedback() {
                                 <div className='flex gap-[20px]'>
                                     <img src='avatar-1.png' />
                                     <div className='flex flex-col'>
-                                        <h1 className='text-[#0B132A] text-[18px] font-medium'>Viezh Robert</h1>
+                                        <h1 className='text-[#0B132A] text-[18px] font-semibold'>Viezh Robert</h1>
                                         <h3 className='text-[#4F5665] text-[14px] font-normal'>Warsaw, Poland</h3>
                                     </div>
                                 </div>

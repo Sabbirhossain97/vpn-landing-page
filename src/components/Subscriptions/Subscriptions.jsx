@@ -5,7 +5,7 @@ function Subscriptions() {
         <div className='flex flex-col mx-auto justify-center bg-[#FAFAFA] mt-[80px] relative'>
             <div className='max-w-6xl mx-auto mt-[80px]'>
                 <div>
-                    <h1 className='text-center text-[#0B132A] text-[35px] font-medium leading-[50px]'>Choose Your Plan</h1>
+                    <h1 className='text-center text-[#0B132A] text-[35px] font-semibold leading-[50px]'>Choose Your Plan</h1>
                     <h3 className='text-center text-[#4F5665] text-[16px] font-normal leadning-[30px] mt-[20px]'>Let's choose the package that is best for you and explore it happily and <br /> cheerfully.</h3>
                 </div>
                 <div className='mt-[60px] grid grid-cols-3 gap-[50px]'>
@@ -16,7 +16,7 @@ function Subscriptions() {
                                     <img src='/Free.png' />
                                 </div>
                                 <div className='mt-[30px]'>
-                                    <h2>Free Plan</h2>
+                                    <h2 className='text-[18px] text-[#0B132A] font-semibold leading-[30px]'>Free Plan</h2>
                                 </div>
                                 <div className='mt-[30px]'>
                                     <ul>
@@ -49,7 +49,7 @@ function Subscriptions() {
                             </div>
                             <div className='pb-[30px] mt-[130px]'>
                                 <div className='text-center flex flex-col gap-[20px]'>
-                                    <h1 className='text-[#0B132A] text-[25px] font-medium leading-[30px]'>Free</h1>
+                                    <h1 className='text-[#0B132A] text-[25px] font-semibold leading-[30px]'>Free</h1>
                                     <button className='py-[13px] px-[63px] text-[#F53838] text-[16px] font-bold leading-normal rounded-[50px] border-2 border-[#F53838]'>Select</button>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@ function Subscriptions() {
                                     <img src='/Free.png' />
                                 </div>
                                 <div className='mt-[30px]'>
-                                    <h2>Standard Plan</h2>
+                                    <h2 className='text-[18px] text-[#0B132A] font-semibold leading-[30px]'>Standard Plan</h2>
                                 </div>
                                 <div className='mt-[30px]'>
                                     <ul>
@@ -101,7 +101,7 @@ function Subscriptions() {
                             </div>
                             <div className='pb-[30px]'>
                                 <div className='text-center flex flex-col gap-[20px]'>
-                                    <h1 className='text-[#0B132A] text-[25px] font-medium leading-[30px]'>$9 <span className='text-[#4F5665] font-normal'>/ mo</span></h1>
+                                    <h1 className='text-[#0B132A] text-[25px] font-semibold leading-[30px]'>$9 <span className='text-[#4F5665] font-normal'>/ mo</span></h1>
                                     <button className='py-[13px] px-[63px] text-[#F53838] text-[16px] font-bold leading-normal rounded-[50px] border-2 border-[#F53838]'>Select</button>
                                 </div>
                             </div>
@@ -114,7 +114,7 @@ function Subscriptions() {
                                     <img src='/Free.png' />
                                 </div>
                                 <div className='mt-[30px]'>
-                                    <h2>Premium Plan</h2>
+                                    <h2 className='text-[18px] text-[#0B132A] font-semibold leading-[30px]'>Premium Plan</h2>
                                 </div>
                                 <div className='mt-[30px]'>
                                     <ul>
@@ -159,7 +159,7 @@ function Subscriptions() {
                             </div>
                             <div className='pb-[30px]'>
                                 <div className='h-auto text-center flex flex-col gap-[20px]'>
-                                    <h1 className='text-[#0B132A] text-[25px] font-medium leading-[30px]'>$12 <span className='text-[#4F5665] font-normal'>/ mo</span></h1>
+                                    <h1 className='text-[#0B132A] text-[25px] font-semibold leading-[30px]'>$12 <span className='text-[#4F5665] font-normal'>/ mo</span></h1>
                                     <div className='relative'>
                                         <button className='py-[13px] relative z-10 px-[63px] bg-[#F53838] text-[#FFF] text-[16px] font-bold leading-normal rounded-[50px] border border-[#F53838]'>Select</button>
                                         <div className='absolute z-5 left-[27px] top-[10px] right-[27px] blur-[27px] -bottom-[27.5px] rounded-[60px] h-[60px] bg-[rgba(245,56,56,0.3)]'></div>
