@@ -10,8 +10,8 @@ import Footer from "./components/Footer/Footer"
 function App() {
 
   return (
-    <div>
-      <div className='max-w-6xl mx-auto relative'>
+    <div className="overflow-hidden">
+      <div className='max-w-6xl mx-auto relative '>
         <Navbar />
         <Hero />
         <StatsCard />

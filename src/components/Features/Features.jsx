@@ -2,14 +2,14 @@ import React from 'react'
 
 function Features() {
     return (
-        <div className='mt-[96px] flex gap-[170px] pb-[130px] items-center'>
-            <div className='w-1/2'>
+        <div className='mt-[96px] flex flex-col custom1:flex-row gap-[70px] custom1:gap-[170px] pb-[130px] items-center px-10 xl:px-0'>
+            <div className='w-full custom1:w-1/2 flex justify-center'>
                 <img src='/features-image.png' />
             </div>
-            <div className='flex flex-col w-1/2 gap-[20px]'>
-                <h1 className='text-[35px] text-[#0B132A] font-semibold leading-[50px]'>We Provide Many <br /> Features You Can Use</h1>
-                <h3 className='text-[#4F5665] text-[16px] font-normal leading-[30px]'>
-                    You can explore the features that we provide with fun and <br /> have their own functions each feature.
+            <div className='flex flex-col items-center custom1:items-start w-full custom1:w-1/2 gap-[20px]'>
+                <h1 className='text-[35px] text-[#0B132A] text-center custom1:text-start font-semibold leading-[50px]'>We Provide Many <br /> Features You Can Use</h1>
+                <h3 className='text-[#4F5665] text-[16px] text-center custom1:text-start font-normal leading-[30px]'>
+                    You can explore the features that we provide with fun and <br className='hidden custom1:block' /> have their own functions each feature.
                 </h3>
                 <div>
                     <ul className='flex flex-col gap-[15px] text-[#4F5665]'>

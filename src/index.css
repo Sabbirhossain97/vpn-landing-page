@@ -10,6 +10,11 @@
     }
 }
 
+@theme {
+    --breakpoint-custom1: 1150px;
+    --breakpoint-custom2: 1300px;
+}
+
 .swiper {
     height: 310px !important;
 }

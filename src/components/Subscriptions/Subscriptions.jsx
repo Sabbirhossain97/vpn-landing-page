@@ -1,15 +1,14 @@
-import React from 'react'
 
 function Subscriptions() {
     return (
-        <div className='flex flex-col mx-auto justify-center bg-[#FAFAFA] mt-[80px] relative'>
+        <div className='flex flex-col mx-auto justify-center bg-[#FAFAFA] mt-[80px] relative px-10 xl:px-0'>
             <div className='max-w-6xl mx-auto mt-[80px]'>
                 <div>
                     <h1 className='text-center text-[#0B132A] text-[35px] font-semibold leading-[50px]'>Choose Your Plan</h1>
                     <h3 className='text-center text-[#4F5665] text-[16px] font-normal leadning-[30px] mt-[20px]'>Let's choose the package that is best for you and explore it happily and <br /> cheerfully.</h3>
                 </div>
-                <div className='mt-[60px] grid grid-cols-3 gap-[50px]'>
-                    <div className='flex flex-col  items-center bg-[#FFF] border-2 border-[#DDD] rounded-[10px] w-[330px]'>
+                <div className='mt-[60px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[50px]'>
+                    <div className='flex flex-col col-span-1 items-center bg-[#FFF] border-2 border-[#DDD]  rounded-[10px] md:w-[280px] xl:w-[330px]'>
                         <div className='flex flex-col flex-1 items-center justify-between'>
                             <div className='flex flex-col items-center'>
                                 <div className='pt-[80px]'>

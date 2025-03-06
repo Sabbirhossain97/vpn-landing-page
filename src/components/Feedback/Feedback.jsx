@@ -9,10 +9,10 @@ import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 function Feedback() {
     return (
-        <div className='pt-[124px] pb-[200px] bg-[#FAFAFA]'>
+        <div className='pt-[124px] pb-[200px] bg-[#FAFAFA] px-10 custom2:px-0'>
             <div className='text-center'>
-                <h1 className='text-[35px] text-[#0B132A] font-semibold leading-[50px]'>Trusted by Thousands of <br /> Happy Customer</h1>
-                <h3 className='mt-[20px] text-[#4F5665] text-[16px] font-normal leading-[30px]'>These are the stories of our customers who have joined us with great <br /> pleasure when using this crazy feature.</h3>
+                <h1 className='text-[35px] text-[#0B132A] font-semibold leading-[50px]'>Trusted by Thousands of <br className='hidden md:block' /> Happy Customer</h1>
+                <h3 className='mt-[20px] text-[#4F5665] text-[16px] font-normal leading-[30px]'>These are the stories of our customers who have joined us with great <br className='hidden md:block' /> pleasure when using this crazy feature.</h3>
             </div>
             <Swiper
                 modules={[Pagination, Navigation]}
@@ -25,7 +25,15 @@ function Feedback() {
                     640: {
                         slidesPerView: 1,
                     },
+                    874: {
+                        slidesPerView: 2,
+                        spaceBetween: 50,
+                    },
                     1024: {
+                        slidesPerView: 2,
+                        spaceBetween: 50,
+                    },
+                    1300: {
                         slidesPerView: 3,
                         spaceBetween: 50,
                     },

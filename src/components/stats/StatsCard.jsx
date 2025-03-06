@@ -2,8 +2,8 @@ import React from 'react'
 
 function StatsCard() {
     return (
-        <div className='flex mt-[104px] justify-between mx-auto relative bg-[#FFF]'>
-            <div className='flex justify-center items-center gap-[36.5px] py-[67.5px] w-1/3'>
+        <div className='flex flex-col md:flex-row mt-[104px] justify-center md:justify-between mx-auto relative bg-[#FFF] px-10 md:px-0'>
+            <div className='flex justify-center items-center gap-[36.5px] py-[67.5px] w-full md:w-1/3 '>
                 <div>
                     <img src='/user.png' />
                 </div>
@@ -12,8 +12,8 @@ function StatsCard() {
                     <h3 className='text-[#4F5665] text-[20px] font-normal leading-[30px]'>Users</h3>
                 </div>
             </div>
-            <div className='h-[125px] my-auto border border-[#EEEFF2]'></div>
-            <div className='flex justify-center items-center gap-[36.5px] py-[67.5px] w-1/3'>
+            <div className='h-[1px] md:h-[125px] my-auto border border-[#EEEFF2]'></div>
+            <div className='flex justify-center items-center gap-[36.5px] py-[67.5px] w-full md:w-1/3'>
                 <div>
                     <img src='/location.png' />
                 </div>
@@ -22,8 +22,8 @@ function StatsCard() {
                     <h3 className='text-[#4F5665] text-[20px] font-normal leading-[30px]'>Locations</h3>
                 </div>
             </div>
-            <div className='h-[125px] my-auto border border-[#EEEFF2]'></div>
-            <div className='flex justify-center items-center gap-[36.5px] py-[67.5px] w-1/3'>
+            <div className='h-[1px] md:h-[125px] my-auto border border-[#EEEFF2]'></div>
+            <div className='flex justify-center items-center gap-[36.5px] py-[67.5px] w-full md:w-1/3'>
                 <div>
                     <img src='/server.png' />
                 </div>
