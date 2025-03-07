@@ -2,7 +2,7 @@ import React from 'react'
 
 function Features() {
     return (
-        <div className='mt-[96px] flex flex-col custom1:flex-row gap-[70px] custom1:gap-[170px] pb-[130px] items-center px-10 xl:px-0'>
+        <div className='mt-[96px] flex flex-col custom1:flex-row gap-[70px] custom1:gap-[170px] pb-[130px] items-center px-6 sm:px-10 xl:px-0'>
             <div className='w-full custom1:w-1/2 flex justify-center'>
                 <img src='/features-image.png' />
             </div>

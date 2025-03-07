@@ -19,6 +19,12 @@
     height: 310px !important;
 }
 
+@media (max-width: 640px) {
+    .swiper {
+        height: auto !important;
+    }
+}
+
 .swiper-pagination-bullet-active {
     width: 36px !important;
     height: 10px !important;
@@ -29,9 +35,16 @@
 .swiper-pagination {
     position: absolute !important;
     bottom: 0px !important;
-    left: -2 !important;
+    left: -2px !important;
     transform: translateX(0%) !important;
     width: auto !important;
+}
+
+@media (max-width: 500px) {
+    .swiper-pagination {
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+    }
 }
 
 .swiper-button-prev {
@@ -47,6 +60,12 @@
     justify-content: end;
     align-items: end;
     gap: 15px;
+}
+
+@media (max-width: 640px) {
+    .navigation-buttons {
+        display: none;
+    }
 }
 
 .custom-prev,
@@ -73,4 +92,8 @@
 .custom-prev:hover,
 .custom-next:hover {
     transform: scale(1.1);
+}
+
+.custom-next-small {
+color: #F53838;
 }

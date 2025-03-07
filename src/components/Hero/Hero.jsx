@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
     return (
-        <div className='flex flex-col custom1:flex-row gap-[100px] custom1:gap-[40px] pt-[120px] px-10 xl:px-0'>
+        <div className='flex flex-col custom1:flex-row gap-[100px] custom1:gap-[40px] pt-[120px] px-6 sm:px-10 xl:px-0'>
             <div className='flex flex-col w-full custom1:w-1/2'>
                 <h1 className='text-[50px] text-[#0B132A] font-medium text-center custom1:text-start leading-[70px]'>Want anything to be easy with <span className='text-[50px] font-bold leading-[70px]'>LaslesVPN.</span></h1>
                 <h3 className='mt-[20px] text-[#4F5665] text-[16px] font-normal leading-[30px] text-center custom1:text-start'>

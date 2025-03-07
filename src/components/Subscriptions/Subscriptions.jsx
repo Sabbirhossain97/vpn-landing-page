@@ -1,7 +1,7 @@
 
 function Subscriptions() {
     return (
-        <div className='flex flex-col mx-auto justify-center bg-[#FAFAFA] mt-[80px] relative px-10 xl:px-0'>
+        <div className='flex flex-col mx-auto justify-center bg-[#FAFAFA] mt-[80px] relative px-6 sm:px-10 xl:px-0'>
             <div className='max-w-6xl mx-auto mt-[80px]'>
                 <div>
                     <h1 className='text-center text-[#0B132A] text-[35px] font-semibold leading-[50px]'>Choose Your Plan</h1>
